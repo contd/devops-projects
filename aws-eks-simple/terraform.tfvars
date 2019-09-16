@@ -1,0 +1,8 @@
+aws_region            = "us-east-1"
+subnet_count          = "2"
+accessing_computer_ip = "76.21.245.114"
+keypair_name          = "id_rsa"
+cluster_name          = "kumpf-cluster"
+instance_type         = "t2.micro"
+hosted_zone_id        = ""
+hosted_zone_url       = "kumpf.io"

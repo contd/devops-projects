@@ -1,0 +1,12 @@
+kind: ServiceMonitor
+apiVersion: monitoring.coreos.com/v1
+metadata:
+  name: sample-api-test
+  labels:
+    app: sample-api-test
+spec:
+  selector:
+    matchLabels:
+      app: sample-api-test
+  endpoints:
+  - port: http

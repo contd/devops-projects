@@ -1,0 +1,7 @@
+cluster_name = "balena-cluster1"
+node_name = "balena-node"
+aws_region = "us-east-2"
+instance_type = "m4.large"
+hosted_zone_id = "Z12Z3ENK606G7B"
+hosted_zone_url = "kumpf.mobi"
+environment = "prod"

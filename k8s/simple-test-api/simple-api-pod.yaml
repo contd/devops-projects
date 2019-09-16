@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: api-test
+  labels:
+    app: api-test
+    release: "0"
+spec:
+  containers:
+  - name: api-test
+    image: kumpfjn/simple-api-test:latest

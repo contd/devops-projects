@@ -1,0 +1,8 @@
+token             = ""
+ssh_key_name      = "jason-main"
+region            = "nyc1"
+cluster_name      = "mainkube"
+cluster_version   = "1.13.4-do.0"
+node_pool_name    = "woker-pool"
+node_pool_size    = "s-1vcpu-2gb"
+number_nodes      = "2"

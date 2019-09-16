@@ -1,0 +1,32 @@
+# Terraform
+.terraform
+.terragrunt-cache
+*.tfstate*
+crash.log
+
+# Secrets are not allowed in general
+*.key
+*.pem
+
+# OS X
+.history
+.DS_Store
+
+# IntelliJ
+.idea_modules
+*.iml
+*.iws
+*.ipr
+.idea/
+build/
+*/build/
+
+# General
+.directory
+.*.swp
+*.bak
+*.so
+*.pyc
+*.o
+.vscode
+account.json

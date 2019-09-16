@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: api-test
+spec:
+  selector:
+    matchLabels:
+      app: api-test
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: api-test
+    spec:
+      containers:
+      - name: api-test
+        image: kumpfjn/simple-api-test:latest

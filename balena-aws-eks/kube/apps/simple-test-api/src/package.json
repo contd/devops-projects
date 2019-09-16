@@ -1,0 +1,17 @@
+{
+  "name": "simple-test-api",
+  "version": "1.0.0",
+  "description": "Simple test api for performance.",
+  "author": "Jason Kumpf",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "logplease": "^1.2.15",
+    "restify": "^7.1.0",
+    "restify-cors-middleware": "^1.1.1",
+    "xxhash": "^0.2.4"
+  }
+}
